@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 1 - Etiquetas</title>
+</head>
+<body>
+        <!-- Encabezados -->
+    <h1>Header 1 -> Encabezado 1</h1>
+    <h2>Header 2 -> Encabezado 2</h2>
+    <h3>Header 3 -> Encabezado 3</h3>
+    <h4>Header 4 -> Encabezado 4</h4>
+    <h5>Header 5 -> Encabezado 5</h5>
+    <h6>Header 6 -> Encabezado 6</h6>
+
+    <!-- Parrafos -->
+    <p>Párrafo................. para textos largos</p>
+
+
+    <!-- Peso a las palabras -->
+
+    <i>Italic -> Cursiva</i>
+    <u>Underline -> Subrayado</u>
+    <b>Bold -> Negrita</b>
+
+
+    <!-- Etiquetas semanticas -->
+
+    <strong>Strong -> Negrita</strong>
+    <em>Emphasis -> Énfasis</em>
+    <mark>Mark -> Resaltado</mark>
+    <cite>Cite -> Cita</cite>
+
+    <!-- la diferencia es que <strong> se usa para dar énfasis semántico y optimizar la búsqueda 
+        en el navegador, mientras que <b> solo aplica estilo visual -->
+
+
+    <!-- Salto de linea-->
+
+    <p>Primer párrafo</p>
+    <br />
+    <p>Segundo párrafo</p>
+
+
+    <!-- Listados -->
+
+    <li>Elemento de lista 1</li>
+    <li>Elemento de lista 2</li>
+    <li>Elemento de lista 3</li>
+
+    <!--  Ordered List-->
+    <ol>
+        <li>Elemento de lista ordenada 1</li>
+        <li>Elemento de lista ordenada 2</li>
+        <li>Elemento de lista ordenada 3</li>
+        <ol>
+            <li>Elemento de lista ordenada 1</li>
+            <li>Elemento de lista ordenada 2</li>
+            <ol>
+                <li>Elemento de lista ordenada 1</li>
+            </ol>
+        </ol>
+    </ol>
+
+    <!--  Unordered List -- Son contenedores de elementos -->
+    <ul>
+        <li>Elemento de lista desordenada 1</li>
+        <li>Elemento de lista desordenada 2</li>
+        <li>Elemento de lista desordenada 3</li>
+        <ul>
+            <li>Elemento de lista desordenada 1</li>
+            <li>Elemento de lista desordenada 2</li>
+            <ul>
+                <li>Elemento de lista desordenada 1</li>
+            </ul>
+        </ul>
+    </ul>
+
+    <!--  Media / imagenes / audio / video -->
+
+    <!-- img -> No necesita etiqueta de cierre / No tiene contenido -->
+    <!-- source -> src -->
+
+    <!-- Ruta ABSOLUTA -->
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg"/>
+
+    <!-- Ruta RELATIVA -->
+    <!-- width = ancho / height = alto -->
+
+    <img src="./imagenes/ejemplo.png" width="200" height="200" />
+
+    <!-- LINKS -->
+    <!-- attachment -> a -->
+
+    <a href="https://www.google.com">Google</a>
+    <a href="./index.html">Link a main page</a>
+
+    <!-- Estructura de la pagina -->
+
+    <main></main>
+    <section></section> <!-- Agrupa contenido relacionado dentro de una sección temática -->
+    <article></article> <!-- Contenido independiente que puede ser distribuido por separado -->
+    <aside></aside> <!-- Contenido relacionado pero no esencial -->
+    <div></div> <!-- Contenedor genérico sin significado semántico específico -->
+    <nav></nav> <!-- Navegación -->
+    <footer></footer> <!-- Pie de página -->
+    <menu></menu> <!-- Lista de comandos o elementos de menú -->
+    <details open> <!-- Contenido adicional que el usuario puede mostrar u ocultar -->
+        <p>Este es el contenido adicional que se muestra al hacer clic en el resumen.</p>
+    </details> 
+
+</body>
+</html>
+
+
+
+

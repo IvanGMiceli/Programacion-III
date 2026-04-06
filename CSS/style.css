@@ -1,0 +1,81 @@
+/* 
+    Ejemplo.
+    Cambia todos los parrafos (p) a color (de texto) ROJO
+*/
+
+p {
+    color : red;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: rgb(215, 211, 211);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+#parrafo_3 {
+    color : green;
+}
+
+#ejemplo {
+    color : rgb(6, 132, 90)
+}
+
+.texto-azul {
+    color : blue
+}
+
+* {
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline wavy black 1px;
+}
+
+/*  DEFINICIONES
+
+SELECTOR: Es lo que indica a que elemento o elementos apuntan las propiedades CSS.
+Es lo que esta antes de las llaves. (p)
+
+TIPOS DE SELECTORES:
+
+- de etiqueta (TODAS las etiquetas de ese nombre)
+p {}
+div {}
+
+- por ID
+#parrafo-3 {}
+#id
+#chat
+
+Por ID es solo para apuntar a UN elemento especifico
+
+- por clase ( CLASS )
+
+Puedo definir "Clases" y agrupar elementos de cualquier tipo en esas clases.
+Se deninen como un '.'
+
+
+PROPIEDADES: Que se modifica? colores, tamaños, posiciones, animaciones, direcciones, etc.
+
+VALORES
+
+*/
+
+
+/*
+
+pixeles: px: tamaño fijo en pixeles
+em: multiplica el valor asignado por el tamaño de fuente del elemento padre.
+
+<div 30px>
+<p 2em 2x30 > 60px </p>
+
+rem: lo mismo que em, pero en lugar del padre, es con el body
+
+<body 30px>
+<div 50px>
+<h1 2rem -> 2x30 > 60px </h1>
+
+*/

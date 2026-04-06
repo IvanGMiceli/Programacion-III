@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color:rgb(239, 143, 65);
+    background-color: rgba(50, 50, 50, 0.683);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#registro {
+    background-color: rgba(50, 50, 50, 0.683);
+}
+
+.campo {
+    color:rgb(239, 143, 65);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.tyc {
+    font-size: medium;
+}
+
+
+a {
+    color:rgb(245, 231, 122);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 - Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Segunda clase de HTML - Formularios</h1>
+    </header>
+
+    <p>"Segunda clase de HTML. Mas etiquetas y estructura de la pagina. CSS"</p>
+
+    <hr><!-- Linea horizontal   -->
+
+    <!-- Indica un formulario -->
+    <form id="busqueda">
+        <!-- Input -> entrada / es autocierre -->
+        <!-- El name -> El navegador te ofrece una opción ya utilizada bajo ese parametro. Se puede repetir en el documento, no dentro del mismo formulario  -->
+        <!-- El value de todo input es su valor que puede ir cambiando. Se puede ver o no -->
+        <!-- El id es el identificador de la etiqueta que uses, le podes poner lo que quieras / ES UNICO POR DOCUMENTO-->
+        <!-- El type es para darle otras propiedades al texto, como password que lo que hace es ocultar lo que metas dentro-->
+
+        <input name="usuario"/>
+
+        <input name="por-defecto" type="text" value="ejemplo"/> 
+
+        <input name="email" type="email"/>
+
+        <input name="password" type="password"/>
+
+        <p>Boton</p>
+        <input type="button"/>
+
+        <p>Checkbox</p>
+        <input type="checkbox"/>
+
+        <p>Color</p>
+        <input type="color"/>
+
+        <p>Fecha</p>
+        <input type="date"/>
+
+        <p>Fecha y Hora</p>
+        <input type="datetime-local"/>
+
+        <p>Carga archivos</p>
+        <input type="file"/>
+
+        <p>Poner imagen al boton submit</p>
+        <input type="image"/>
+        
+        <p>Mes</p>
+        <input type="month"/>
+
+        <p>Numeros</p>
+        <input type="number"/>
+
+        <p>Radio</p>
+        <input type="radio"/>
+
+        <p>Rango</p>
+        <input type="range"/>
+
+        <p>Reset de formulario</p>
+        <input type="reset"/>
+
+        <p>Buscar</p>
+        <input type="search"/>
+
+        <p>Enviar formulario</p>
+        <input type="submit"/>
+
+        <p>Telefono</p>
+        <input type="tel"/>
+
+        <p>Url</p>
+        <input type="url"/>
+
+        <p>Semana</p>
+        <input type="week"/>
+
+        <!-- Otros tipos de input -->
+
+        <p>Text Area</p>
+        <textarea></textarea>
+        
+        <p>Seleccionar entre opciones</p>
+        <select>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+        </select>
+
+        <p>Boton</p>
+        <button>Boton</button>
+        
+        <br>
+        <hr>
+
+    </form>
+
+    <form>
+        <h1>Formulario Bien Hecho</h1>
+        <!-- Label -> Etiqueta -->
+        <!-- A traves del atributo ID de un input, se puede vincular un label con su atributo FOR -> Etiqueta -->
+
+        <label for="primer-nombre">Nombre</label>
+        <input id="primer-nombre" name="text" type="firstName"/>
+
+        <label>Contraseña</label>
+        <input name="password" type="password"/>
+
+        <label>Fecha de nacimiento</label>
+        <input name="date" type="bday"/>
+
+        <input type="submit" />
+
+    </form>
+
+    <br>
+    <a href="./index.html">Link a main page</a>
+
+</body>
+</html>
