@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    background-color: #0d1321;
+
     height: 100%;
 
     display: grid;
@@ -18,26 +20,31 @@ header {
 }
 
 .banner_princ_1 {
+    background-color: #1d2d44;
     grid-row: 2;
     grid-column: 1 / 3;
 }
 
 .banner_princ_2 {
+    background-color: #3e5c76;
     grid-row: 3;
     grid-column: 1 / 3;
 }
 
 .cuerpo_pagina_info {
+    background-color: #f0ebd8; 
     grid-row: 4;
     grid-column: 1 / 2;
 }
 
 .cuerpo_pagina_img {
+    background-color: #f0ebd8;
     grid-row: 4;
     grid-column: 2 / 3;
 }
 
 footer {
+    background-color: #748cab;
     grid-row: 5;
     grid-column: 1 / 3;
 }
