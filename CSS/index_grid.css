@@ -2,15 +2,15 @@ html {
     height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #0d1321;
-
     height: 100%;
-
     display: grid;
-
     grid-template-rows: 0.4fr 0.5fr 0.4fr 3fr 1.4fr;
-
     grid-template-columns: 50% 50%;
 }
 
@@ -56,13 +56,23 @@ footer {
 
 .info_pie_pagina {
     display: flex;
+    flex-direction: column;
     grid-column: 1 / 2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info_pie_pagina h1,
+.info_pie_pagina p  {
+    color: #0d1321;
+    padding-top: 5px;
+    padding-left: 350px;
 }
 
 .img_pie_pagina {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #748cab;
     grid-column: 2 / 3;
 }
 
