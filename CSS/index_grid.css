@@ -38,6 +38,9 @@ header {
 }
 
 .cuerpo_pagina_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f0ebd8;
     grid-row: 4;
     grid-column: 2 / 3;
@@ -52,9 +55,25 @@ footer {
 }
 
 .info_pie_pagina {
+    display: flex;
     grid-column: 1 / 2;
 }
 
 .img_pie_pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 2 / 3;
+}
+
+.img_pie_pagina img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.cuerpo_pagina_img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
 }
