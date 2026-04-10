@@ -32,9 +32,12 @@ header {
 }
 
 .cuerpo_pagina_info {
+    display: flex;
+    flex-direction: column;
     background-color: #f0ebd8; 
     grid-row: 4;
     grid-column: 1 / 2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .cuerpo_pagina_img {
@@ -44,6 +47,22 @@ header {
     background-color: #f0ebd8;
     grid-row: 4;
     grid-column: 2 / 3;
+}
+
+.articulo_main h1,
+.articulo_main p {
+    color: #0d1321;
+    /*padding-top: 5px;*/
+    padding-left: 350px;
+}
+
+.articulo_main h1 {
+    font-size : 70px;
+}
+
+.articulo_main p {
+    font-size : 20px;
+    padding-bottom: 10px;
 }
 
 footer {
