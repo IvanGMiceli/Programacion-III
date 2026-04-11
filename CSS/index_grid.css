@@ -26,6 +26,8 @@ header {
 #logo_princ img {
     width: 200px;
     height: auto;
+    padding: 0;
+    line-height: 0;
 }
 
 .menu_izq {
@@ -36,6 +38,7 @@ header {
 
 .menu_izq nav {
     display: flex;
+    font-size: 14px;
     gap: 30px;
 }
 
@@ -51,6 +54,25 @@ header {
     font-size: normal;
     font-weight: 600;
 }
+
+.menu_der button img,
+.menu_der div img { 
+    width: 30px;
+    height: auto;
+}
+
+.menu_der div img { 
+    border-radius: 50%;
+} 
+
+.menu_der button {
+    overflow: hidden;
+    border-radius: 100%;
+    padding: 0;
+    line-height: 0;
+}
+
+/*------------------------------------------*/
 
 .banner_princ_1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
