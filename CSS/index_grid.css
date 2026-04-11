@@ -24,7 +24,7 @@ header {
 }
 
 #logo_princ img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
@@ -34,10 +34,22 @@ header {
     gap: 80px;
 }
 
+.menu_izq nav {
+    display: flex;
+    gap: 30px;
+}
 
 .menu_der {
     display: flex;
+    align-items: center;
     gap: 20px;
+    padding-right: 20px;
+}
+
+.menu_der select {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: normal;
+    font-weight: 600;
 }
 
 .banner_princ_1 {
