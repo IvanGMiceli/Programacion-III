@@ -15,8 +15,16 @@ body {
 }
 
 header {
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-between;
     grid-row: 1;
     grid-column: 1 / 3;
+}
+
+#logo_princ {
+    width: 100px;
+    height: 100px;
 }
 
 .banner_princ_1 {
