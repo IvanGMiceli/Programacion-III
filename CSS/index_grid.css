@@ -55,6 +55,18 @@ header {
     font-weight: 600;
     background-color: #0d1321;
     color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 15px;
+}
+
+.menu_der input {
+    background-color: #0d1321;
+    color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
 }
 
 .menu_der button img,
