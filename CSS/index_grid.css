@@ -20,16 +20,29 @@ header {
 }
 
 .banner_princ_1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
     background-color: #1d2d44;
     grid-row: 2;
     grid-column: 1 / 3;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: large;
 }
 
 .banner_princ_2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
     background-color: #3e5c76;
     grid-row: 3;
     grid-column: 1 / 3;
+    padding-top: 5px;
+    padding-left: 250px;
+
 }
+
+/*------------------------------------------*/
 
 .cuerpo_pagina_info {
     display: flex;
@@ -49,10 +62,15 @@ header {
     grid-column: 2 / 3;
 }
 
+.cuerpo_pagina_img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
 .articulo_main h1,
 .articulo_main p {
     color: #0d1321;
-    /*padding-top: 5px;*/
     padding-left: 350px;
 }
 
@@ -64,6 +82,8 @@ header {
     font-size : 20px;
     padding-bottom: 10px;
 }
+
+/*------------------------------------------*/
 
 footer {
     display: grid;
@@ -87,6 +107,10 @@ footer {
     padding-left: 350px;
 }
 
+.info_pie_pagina h1 {
+    font-weight: 900;
+}
+
 .img_pie_pagina {
     display: flex;
     align-items: center;
@@ -101,8 +125,3 @@ footer {
     border-radius: 10%;
 }
 
-.cuerpo_pagina_img img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10%;
-}
