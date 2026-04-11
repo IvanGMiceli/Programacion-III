@@ -22,9 +22,9 @@ header {
     grid-column: 1 / 3;
 }
 
-#logo_princ {
-    width: 100px;
-    height: 100px;
+#logo_princ img {
+    width: 150px;
+    height: auto;
 }
 
 .banner_princ_1 {
