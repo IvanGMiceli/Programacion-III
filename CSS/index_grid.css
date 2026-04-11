@@ -40,6 +40,10 @@ header {
     gap: 30px;
 }
 
+.menu_izq nav button:hover {
+    cursor: pointer;
+}
+
 .menu_der {
     display: flex;
     align-items: center;
@@ -67,6 +71,11 @@ header {
     font-size: 16px;
 }
 
+.menu_der input:hover {
+    background-color: #233b6d;
+    cursor: text;
+}
+
 .menu_der button img,
 .menu_der div img { 
     width: 30px;
@@ -82,6 +91,10 @@ header {
     border-radius: 100%;
     padding: 0;
     line-height: 0;
+}
+
+.menu_der button,select:hover {
+    cursor: pointer;
 }
 
 .menu_der a {
