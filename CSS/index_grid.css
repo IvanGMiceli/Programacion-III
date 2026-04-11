@@ -40,6 +40,11 @@ header {
     gap: 30px;
 }
 
+.menu_izq nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .menu_izq nav button {
     background-color: #0d1321;
     color: whitesmoke;
